@@ -40,11 +40,11 @@ function processPayment(amount, cardNumber, expiry, cvv) {
         })
         .then(res => res.json())
         .then(data => {
-          alert("Pembayaran berhasil dikonfirmasi!");
+          showMessage("Pembayaran berhasil dikonfirmasi!");
           console.log(data);
         })
         .catch(err => {
-          alert("Gagal kirim pembayaran.");
+          showMessage("Gagal kirim pembayaran.");
           console.error(err);
         });
 
