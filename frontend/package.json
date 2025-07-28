@@ -1,0 +1,19 @@
+{
+  "name": "payment",
+  "version": "0.0.0",
+  "devDependencies": {
+    "vite": "^7.0.4"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "server": "nodemon /backend/server.js",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
