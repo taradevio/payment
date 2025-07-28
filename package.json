@@ -7,7 +7,6 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "server": "nodemon /backend/server.js",
     "build": "vite build",
     "preview": "vite preview"
   },
